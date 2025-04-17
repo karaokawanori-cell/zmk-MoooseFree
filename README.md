@@ -1,4 +1,6 @@
-# zmk-MoooseTB_Charlieplex
+# zmk-MoooseFree
+ataruno
+
 ## 構成
 * Charlieplex
 * PMW3610
@@ -14,11 +16,12 @@
 * &xiao_d 5 : SCLK
 * &xiao_d 6 : interrupt
 
-* &xiao_d 10 : NCS
-* &xiao_d 9 : PIN6
+* &xiao_d 10 : PIN6
+* &xiao_d 9 : PIN0
 * &xiao_d 8 : PIN5
 * &xiao_d 7 : PIN4
 
 * &gpio0 9 : RE_B
 * &gpio0 10 : RE_A
+* &gpio1 10 : NCS
 
