@@ -141,14 +141,14 @@
                 &kp LSHIFT  &kp Z      &kp X    &kp C   &kp V   &kp B                            &kp C_MUTE &kp DOWN
                 &kp LCTRL   &kp LWIN   &kp LALT &lt_to_layer_0 4 TAB                &kp DEL      &kp ESC    &kp UP
                                                 &kp BSPC   &kp SPACE   &lt_to_layer_0 2 JP_HENK  &kp PSCRN  &none
-                &kp C   &kp D          &bt BT_SEL 4  &bt BT_SEL 5   &bt BT_SEL 6                          &kp I
+                &kp C   &kp D &kp C   &kp D         &bt BT_SEL 4  &bt BT_SEL 5   &bt BT_SEL 6                          &kp I
 
                 &kp UP                              &kp Y       &kp U          &kp I          &kp O        &kp P         &kp JP_YEN
                 &kp DOWN                             &kp H       &kp J          &kp K          &kp L        &kp JP_SEMI   &kp JP_COLON
                 &kp RIGHT  &kp PSCRN                 &kp N       &kp M          &kp JP_COMMA   &kp JP_DOT   &kp JP_SLASH  &kp RSHIFT
                 &kp LEFT    &mkp LCLK  &mkp RCLK                                 &lt_to_layer_0 3 ESC        &kp JP_LBKT   &kp JP_RBKT   &kp JP_AT
                 &none  &mkp MCLK  &lt_to_layer_0 1 JP_MHEN  &kp ENTER   &kp MINUS
-                &kp C             &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3         &bt BT_CLR   &bt BT_CLR_ALL
+                &kp C             &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3         &bt BT_CLR   &bt BT_CLR_ALL &kp G   &kp H
             >;
             sensor-bindings =
                 <&mouse_scroll SCRL_DOWN SCRL_UP>,
@@ -161,14 +161,14 @@
                 &kp LSHIFT  &kp Z      &kp X    &kp C   &kp V   &kp B               &kp C_MUTE &kp RIGHT
                 &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                &kp C_MUTE   &kp ESC    &kp LEFT
                                                 &kp BSPC   &kp SPACE   &kp JP_HENK  &kp PSCRN  &none
-                &kp C   &kp D           &kp F   &kp G   &kp H                       &kp I
+                &kp C   &kp D   &kp C   &kp D        &kp F   &kp G   &kp H                       &kp I
 
                 &kp UP                             &kp LCLK      &kp HOME       &kp UP         &kp END      &mkp RCLK     &kp JP_YEN
                 &kp DOWN                           &mkp MB5      &kp LEFT       &kp DOWN       &kp RIGHT    &kp JP_SEMI   &kp JP_COLON
                 &kp RIGHT  &kp PSCRN               &mkp MB4      &my_sp         &my_dq         &my_kakko    &my_sq  &kp RSHIFT
                 &kp LEFT   &mkp LCLK  &mkp RCLK                                 &kp ESC        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
                 &none      &mkp MCLK  &kp JP_MHEN  &my_br &kp JP_UNDER
-                &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H
+                &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
             sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN &mouse_scroll SCRL_UP SCRL_DOWN>;
         };
@@ -179,14 +179,14 @@
                 &kp LSHIFT  &kp Z      &kp X           &kp LG(DOWN)     &kp LG(T)       &kp LG(TAB)         &kp C_MUTE   &kp RIGHT
                 &kp LCTRL   &kp LWIN   &kp LALT        &kp TAB                          &kp C_MUTE          &kp F13      &kp LEFT
                                                                    &kp BSPC   &kp SPACE &kp JP_HENK         &kp F14      &none
-                &kp C   &kp D           &kp F   &kp G   &kp H                       &kp I
+                &kp C   &kp D  &kp C   &kp D         &kp F   &kp G   &kp H                       &kp I
 
                 &kp UP                             &kp ASTRK         &kp KP_N7       &kp KP_N8    &kp KP_N9       &kp MINUS     &kp JP_YEN
                 &kp DOWN                           &kp KP_SLASH      &kp KP_N4       &kp KP_N5    &kp KP_N6       &kp PLUS      &kp JP_COLON
                 &kp RIGHT  &kp PSCRN               &kp SEMI          &kp KP_N1       &kp KP_N2    &kp KP_N3       &kp CARET     &kp RSHIFT
                 &kp LEFT   &mkp LCLK  &mkp RCLK                                      &kp KP_N0    &kp KP_DOT      &kp COMMA     &kp JP_AT
                 &none  &mkp MCLK  &kp JP_MHEN  &kp ENTER   &kp MINUS
-                &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H
+                &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
             sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN &mouse_scroll SCRL_UP SCRL_DOWN>;
         };
@@ -197,14 +197,14 @@
                 &kp LSHIFT  &kp LS(F15)  &kp LS(F16)  &kp LS(F17)  &kp LS(F18)   &kp LS(F19)   &kp C_MUTE &kp RIGHT
                 &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                          &kp DEL       &kp ESC    &kp LEFT
                                                           &kp BSPC   &kp SPACE   &kp JP_HENK   &kp PSCRN  &kp ENTER
-                &kp C   &kp D           &kp F   &kp G   &kp H                       &kp I
+                &kp C   &kp D   &kp C   &kp D        &kp F   &kp G   &kp H                       &kp I
 
                 &kp UP                               &kp F20     &kp F21        &kp F22        &kp F23      &kp F24       &kp JP_YEN
                 &kp DOWN                             &kp LC(F20) &kp LC(F21)    &kp LC(F22)    &kp LC(F23)  &kp LC(F24)   &kp JP_COLON
                 &kp RIGHT  &kp PSCRN                 &kp LS(F20) &kp LS(F21)    &kp LS(F22)    &kp LS(F23)  &kp LS(F24)   &kp RSHIFT
                 &kp LEFT   &mkp LCLK  &mkp RCLK                                 &kp TAB        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
                 &none  &mkp MCLK  &lt_to_layer_0 1 JP_MHEN  &kp ENTER   &kp MINUS
-                &kp C           &kp D   &kp E        &kp PSCRN           &kp G   &kp H
+                &kp C           &kp D   &kp E        &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
             sensor-bindings = <&rot_kp C_VOL_DN C_VOL_UP &rot_kp C_VOL_UP C_VOL_DN>;
         };
@@ -215,14 +215,14 @@
                 &kp LSHIFT  &kp F1       &kp F2       &kp F3       &kp F4        &kp F5        &kp C_MUTE &kp RIGHT
                 &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                          &kp DEL       &kp ESC    &kp LEFT
                                                           &kp BSPC   &kp SPACE   &kp JP_HENK   &kp PSCRN  &none
-                &kp C   &kp D           &kp F   &kp G   &kp H                       &kp I
+                &kp C   &kp D  &kp C   &kp D         &kp F   &kp G   &kp H                       &kp I
 
                 &kp UP                               &kp LS(N6)  &kp LS(N7)     &kp LS(N8)     &kp LS(N9)   &kp LS(N0)    &kp JP_YEN
                 &kp DOWN                             &kp LC(N6)  &kp LC(N7)     &kp LC(N8)     &kp LC(N9)   &kp LC(N0)    &kp JP_COLON
                 &kp RIGHT  &kp PSCRN                 &kp F6      &kp F7         &kp F8         &kp F9       &kp F10       &kp RSHIFT
                 &kp LEFT   &mkp LCLK  &mkp RCLK                                 &kp TAB        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
                 &none  &mkp MCLK  &lt_to_layer_0 1 JP_MHEN  &kp ENTER   &kp MINUS
-                &kp C           &kp D   &kp E        &kp PSCRN           &kp G   &kp H
+                &kp C           &kp D   &kp E        &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
             sensor-bindings = <&rot_kp C_VOL_DN C_VOL_UP &rot_kp C_VOL_UP C_VOL_DN>;
         };
