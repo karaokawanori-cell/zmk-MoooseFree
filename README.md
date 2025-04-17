@@ -1,5 +1,5 @@
 # zmk-MoooseFree
-ataruno
+by ataruno
 
 ## 構成
 * Charlieplex
