@@ -139,8 +139,8 @@
                 &kp TAB     &kp Q      &kp W    &kp E   &kp R   &kp T                                       &kp RIGHT
                 &kp LALT    &kp A      &kp S    &kp D   &kp F   &kp G                                       &kp LEFT
                 &kp LSHIFT  &kp Z      &kp X    &kp C   &kp V   &kp B                            &kp C_MUTE &kp DOWN
-                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                &kp DEL      &kp ESC    &kp UP
-                                                &kp BSPC   &kp SPACE   &lt_to_layer_0 2 JP_HENK  &kp PSCRN  &none
+                &kp LCTRL   &kp A      &kp B    &kp TAB                             &kp DEL      &kp ESC    &kp UP
+                                                &kp BSPC   &kp SPACE   &lt_to_layer_0 2 JP_HENK  &kp Z  &none
                 &kp ESC     &kp ESC             &kp KP_N1  &kp KP_N2   &kp KP_N3                 &kp KP_N4  &kp KP_N5    &bt BT_CLR
 
                 &kp UP                              &kp Y       &kp U          &kp I          &kp O        &kp P         &kp JP_YEN
@@ -159,8 +159,8 @@
                 &kp TAB     &kp Q      &kp W    &kp E   &kp R   &kp T                          &kp UP
                 &kp LALT    &kp A      &kp S    &kp D   &kp F   &kp G                          &kp DOWN
                 &kp LSHIFT  &kp Z      &kp X    &kp C   &kp V   &kp B               &kp C_MUTE &kp RIGHT
-                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                &kp C_MUTE   &kp ESC    &kp LEFT
-                                                &kp BSPC   &kp SPACE   &kp JP_HENK  &kp PSCRN  &none
+                &kp LCTRL   &kp A      &kp B    &kp TAB                &kp C_MUTE   &kp ESC    &kp LEFT
+                                                &kp BSPC   &kp SPACE   &kp JP_HENK  &kp Z  &none
                 &kp ESC     &kp ESC             &kp KP_N1  &kp KP_N2   &kp KP_N3    &kp KP_N4  &kp KP_N5               &kp I
 
                 &kp UP                             &kp LCLK      &kp HOME       &kp UP         &kp END      &mkp RCLK     &kp JP_YEN
