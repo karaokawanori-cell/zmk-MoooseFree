@@ -155,10 +155,10 @@
         };
         ARROW {
             bindings = <
-                &kp TAB     &kp Q      &kp W    &kp E   &kp R   &kp T                          &kp UP
-                &kp LALT    &kp A      &kp S    &kp D   &kp F   &kp G                          &kp DOWN
-                &kp LSHIFT  &kp Z      &kp X    &kp C   &kp V   &kp B               &kp C_MUTE &kp RIGHT
-                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                &kp C_MUTE   &kp ESC    &kp LEFT
+                &kp TAB     &kp Q      &kp W    &kp E   &kp R   &kp T                          &kp RIGHT
+                &kp LALT    &kp A      &kp S    &kp D   &kp F   &kp G                          &kp LEFT
+                &kp LSHIFT  &kp Z      &kp X    &kp C   &kp V   &kp B               &kp C_MUTE &kp DOWN
+                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                &kp C_MUTE   &kp ESC    &kp UP
                                                 &kp BSPC   &kp SPACE   &kp JP_HENK  &kp PSCRN  &none
                 &kp C   &kp D   &kp C   &kp D        &kp F   &kp G   &kp H                       &kp I
 
@@ -173,10 +173,10 @@
         };
         NUM {
             bindings = <
-                &kp TAB     &kp Q      &kp W           &kp LG(UP)       &kp R           &kp LA(LS(TAB))                  &kp UP
-                &kp LALT    &kp A      &kp LG(LEFT)    &kp LC(LA(TAB))  &kp LG(RIGHT)   &kp LA(TAB)                      &kp DOWN
-                &kp LSHIFT  &kp Z      &kp X           &kp LG(DOWN)     &kp LG(T)       &kp LG(TAB)         &kp C_MUTE   &kp RIGHT
-                &kp LCTRL   &kp LWIN   &kp LALT        &kp TAB                          &kp C_MUTE          &kp F13      &kp LEFT
+                &kp TAB     &kp Q      &kp W           &kp LG(UP)       &kp R           &kp LA(LS(TAB))                  &kp RIGHT
+                &kp LALT    &kp A      &kp LG(LEFT)    &kp LC(LA(TAB))  &kp LG(RIGHT)   &kp LA(TAB)                      &kp LEFT
+                &kp LSHIFT  &kp Z      &kp X           &kp LG(DOWN)     &kp LG(T)       &kp LG(TAB)         &kp C_MUTE   &kp DOWN
+                &kp LCTRL   &kp LWIN   &kp LALT        &kp TAB                          &kp C_MUTE          &kp F13      &kp UP
                                                                    &kp BSPC   &kp SPACE &kp JP_HENK         &kp F14      &none
                 &kp C   &kp D  &kp C   &kp D         &kp F   &kp G   &kp H                       &kp I
 
@@ -191,10 +191,10 @@
         };
         AHK {
             bindings = <
-                &kp TAB     &kp F15      &kp F16      &kp F17      &kp F18       &kp F19                  &kp UP
-                &kp LALT    &kp LC(F15)  &kp LC(F16)  &kp LC(F17)  &kp LC(F18)   &kp LC(F19)              &kp DOWN
-                &kp LSHIFT  &kp LS(F15)  &kp LS(F16)  &kp LS(F17)  &kp LS(F18)   &kp LS(F19)   &kp C_MUTE &kp RIGHT
-                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                          &kp DEL       &kp ESC    &kp LEFT
+                &kp TAB     &kp F15      &kp F16      &kp F17      &kp F18       &kp F19                  &kp RIGHT
+                &kp LALT    &kp LC(F15)  &kp LC(F16)  &kp LC(F17)  &kp LC(F18)   &kp LC(F19)              &kp LEFT
+                &kp LSHIFT  &kp LS(F15)  &kp LS(F16)  &kp LS(F17)  &kp LS(F18)   &kp LS(F19)   &kp C_MUTE &kp DOWN
+                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                          &kp DEL       &kp ESC    &kp UP
                                                           &kp BSPC   &kp SPACE   &kp JP_HENK   &kp PSCRN  &kp ENTER
                 &kp C   &kp D   &kp C   &kp D        &kp F   &kp G   &kp H                       &kp I
 
@@ -209,10 +209,10 @@
         };
         FUNCTION {
             bindings = <
-                &kp TAB     &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)    &kp LS(N5)               &kp UP
-                &kp LALT    &kp LA(N1)   &kp LA(N2)   &kp LA(N3)   &kp LA(N4)    &kp LA(N5)               &kp DOWN
-                &kp LSHIFT  &kp F1       &kp F2       &kp F3       &kp F4        &kp F5        &kp C_MUTE &kp RIGHT
-                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                          &kp DEL       &kp ESC    &kp LEFT
+                &kp TAB     &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)    &kp LS(N5)               &kp RIGHT
+                &kp LALT    &kp LA(N1)   &kp LA(N2)   &kp LA(N3)   &kp LA(N4)    &kp LA(N5)               &kp LEFT
+                &kp LSHIFT  &kp F1       &kp F2       &kp F3       &kp F4        &kp F5        &kp C_MUTE &kp DOWN
+                &kp LCTRL   &kp LWIN   &kp LALT &kp TAB                          &kp DEL       &kp ESC    &kp UP
                                                           &kp BSPC   &kp SPACE   &kp JP_HENK   &kp PSCRN  &none
                 &kp C   &kp D  &kp C   &kp D         &kp F   &kp G   &kp H                       &kp I
 
