@@ -189,11 +189,6 @@
         status = "disabled";
     };
 
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <12>;
-    };
 };
 
 &xiao_i2c { status = "disabled"; };

@@ -12,6 +12,18 @@
     status = "okay";
 };
 
+&left_encoder {
+    status = "disabled";
+};
+
+&keymap {
+    sensors_right: sensors_right {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&right_encoder>;
+        triggers-per-rotation = <24>;
+    };
+};
+
 / {
     aliases {
         led-red = &led0;

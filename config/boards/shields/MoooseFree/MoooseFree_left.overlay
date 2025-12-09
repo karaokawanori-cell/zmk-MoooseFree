@@ -4,6 +4,18 @@
     status = "okay";
 };
 
+&right_encoder {
+    status = "disabled";
+};
+
+&keymap {
+    sensors_left: sensors_left {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder>;
+        triggers-per-rotation = <24>;
+    };
+};
+
 / {
     trackball: trackball {
         status = "disabled";
