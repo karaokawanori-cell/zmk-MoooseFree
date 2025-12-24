@@ -150,7 +150,7 @@
                 &bt BT_CLR_ALL             &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3         &kp A   &kp B   &kp G   &kp J
             >;
             sensor-bindings =
-                <&mouse_scroll SCRL_UP SCRL_DOWN>,
+                <&rot_kp C_VOL_DN C_VOL_UP>,
                 <&mouse_scroll SCRL_DOWN SCRL_UP>;
         };
         ARROW {
