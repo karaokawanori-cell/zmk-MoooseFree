@@ -138,7 +138,7 @@
                 &kp ESC     &kp Q      &kp W    &kp E   &kp R   &kp T                                              &kp RIGHT
                 &kp TAB     &kp A      &kp S    &kp D   &kp F   &kp G                                              &kp LEFT
                 &kp LSHIFT  &kp Z      &kp X    &kp C   &kp V   &kp B                            &kp C_MUTE        &kp DOWN
-                &kp LCTRL   &none      &kp LWIN &kp LALT                            &kp DEL      &none             &kp UP
+                &kp LCTRL   &none      &kp LWIN &kp LALT                            &kp DEL      &kp LS(LC(M))     &kp UP
                                                 &lt_to_layer_0 2 SPACE   &lt_to_layer_0 4 GRAVE  &none  &kp PSCRN  &none
                 &kp C   &kp D &kp C   &kp D     &bt BT_SEL 4  &bt BT_SEL 5   &bt BT_SEL 6                   &bt BT_CLR
 
@@ -173,11 +173,11 @@
         };
         NUM {
             bindings = <
-                &kp ESC     &trans   &trans          &kp LG(UP)       &trans         &kp LA(LS(TAB))                  &kp RIGHT
-                &kp TAB     &trans   &kp LG(LEFT)    &kp LC(LA(TAB))  &kp LG(RIGHT)  &kp LA(TAB)                      &kp LEFT
-                &kp LSHIFT  &trans   &trans          &kp LG(DOWN)     &trans         &kp LG(TAB)         &kp C_MUTE   &kp DOWN
-                &kp LCTRL   &trans   &trans          &trans                          &kp C_MUTE          &kp F13      &kp UP
-                                                                   &trans   &kp SPACE &kp JP_HENK        &kp F14      &none
+                &kp ESC     &trans   &trans    &trans     &trans    &trans                                    &kp RIGHT
+                &kp TAB     &trans   &trans    &trans     &trans    &trans                                    &kp LEFT
+                &kp LSHIFT  &trans   &trans    &trans     &trans    &trans           &kp C_MUTE               &kp DOWN
+                &kp LCTRL   &trans   &trans    &trans                          &kp C_MUTE          &kp F13    &kp UP
+                                                                   &trans   &kp SPACE &kp JP_HENK  &kp F14    &none
                 &kp C   &kp D  &kp C   &kp D         &kp F   &kp G   &kp H                       &kp I
 
                 &kp UP                             &none      &kp N7       &kp N8    &kp N9       &kp JP_CARET        &trans
