@@ -187,7 +187,7 @@
                 &none      &trans  &trans  &kp ENTER   &kp MINUS
                 &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
-            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN &mouse_scroll SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN &mouse_scroll SCRL_LEFT SCRL_RIGHT>;
         };
         AHK {
             bindings = <
