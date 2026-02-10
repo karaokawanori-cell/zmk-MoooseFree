@@ -125,8 +125,8 @@
         };
         mouse_scroll: mouse_wheel_scrl{
             compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
             tap-ms = <80>;
         };
     };
@@ -149,7 +149,7 @@
                 &none  &mkp MCLK  &lt_to_layer_0 1 JP_MHEN  &kp ENTER   &kp MINUS
                 &bt BT_CLR_ALL             &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3         &kp A   &kp B   &kp G   &kp J
             >;
-            sensor-bindings = <&mouse_scroll>, <&mouse_scroll>;
+            sensor-bindings = <&mouse_scroll SCRL_DOWN SCRL_UP>, <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         ARROW {
             bindings = <
@@ -167,7 +167,7 @@
                 &none      &mkp MCLK  &kp JP_MHEN  &my_br &kp JP_UNDER
                 &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
-            sensor-bindings = <&mouse_scroll>, <&mouse_scroll>;
+            sensor-bindings = <&mouse_scroll SCRL_DOWN SCRL_UP>, <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         NUM {
             bindings = <
@@ -185,7 +185,7 @@
                 &none  &mkp MCLK  &kp JP_MHEN  &kp ENTER   &kp MINUS
                 &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
-            sensor-bindings = <&mouse_scroll>, <&mouse_scroll>;
+            sensor-bindings = <&mouse_scroll SCRL_DOWN SCRL_UP>, <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
         AHK {
             bindings = <
