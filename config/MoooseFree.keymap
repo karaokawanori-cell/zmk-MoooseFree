@@ -126,7 +126,7 @@
         mouse_scroll: mouse_wheel_scrl {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc MOVE_V -2>, <&msc MOVE_V 2>;
+            bindings = <&msc MOVE_Y -2>, <&msc MOVE_Y 2>;
         };
     };
 
