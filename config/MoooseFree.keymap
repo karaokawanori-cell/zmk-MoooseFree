@@ -123,10 +123,11 @@
             #sensor-binding-cells = <2>;
             bindings = <&mkp>, <&mkp>;
         };
-        mouse_scroll: mouse_wheel_scrl {
-            compatible = "zmk,behavior-sensor-rotate";
+        mouse_scroll: mouse_wheel_scrl{
+            compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <0>;
-            bindings = <&msc MOVE_Y -2>, <&msc MOVE_Y 2>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            tap-ms = <80>;
         };
     };
 
