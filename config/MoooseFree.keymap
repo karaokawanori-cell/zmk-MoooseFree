@@ -117,7 +117,7 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
-            tap-ms = <20>;
+            tap-ms = <30>;
         };
         rot_mkp: sensor_rotate_mkp {
             compatible = "zmk,behavior-sensor-rotate-var";
