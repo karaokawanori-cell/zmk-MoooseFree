@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 #include <physical_layouts.dtsi>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 #define ARROW 1
 #define NUM 2
@@ -13,6 +14,26 @@
 
 &gpio0 {
     status = "okay";
+};
+
+/ {
+    input_processors {
+        zip_scroll_x_scaler: zip_scroll_x_scaler {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_HWHEEL>;
+            track-remainders;
+        };
+
+        zip_scroll_y_scaler: zip_scroll_y_scaler {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_WHEEL>;
+            track-remainders;
+        };
+    };
 };
 
 / {
@@ -147,7 +168,7 @@
         };
         scroller_2 {
             layers = <FUNCTION>;
-            input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,  <&zip_xy_scaler 1 30 >, <&zip_xy_to_scroll_mapper>;
+            input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,  <&zip_scroll_x_scaler 1 100 >, <&zip_scroll_y_scaler 1 30 >, <&zip_xy_to_scroll_mapper>;
         };
 
     };
