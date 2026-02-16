@@ -25,6 +25,14 @@
             codes = <INPUT_REL_HWHEEL>;
             track-remainders;
         };
+
+        zip_scroll_y_scaler: zip_scroll_y_scaler {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_WHEEL>;
+            track-remainders;
+        };
     };
 };
 
@@ -160,7 +168,7 @@
         };
         scroller_2 {
             layers = <FUNCTION>;
-            input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,  <&zip_xy_scaler 1 30 >, <&zip_scroll_x_scaler 0 1 >, <&zip_xy_to_scroll_mapper>;
+            input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,  <&zip_scroll_y_scaler 1 3000 >, <&zip_scroll_x_scaler 1 10000 >, <&zip_xy_to_scroll_mapper>;
         };
 
     };
