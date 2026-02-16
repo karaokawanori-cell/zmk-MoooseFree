@@ -149,7 +149,7 @@
         };
         scroller_2 {
             layers = <FUNCTION>;
-            input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,  <&zip_y_scaler 1 10 >, <&zip_x_scaler 1 100 >, <&zip_xy_to_scroll_mapper>;
+            input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,  <&zip_y_scaler 1 10 >, <&zip_x_scaler 0 1 >, <&zip_xy_to_scroll_mapper>;
         };
 
     };
