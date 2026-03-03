@@ -129,13 +129,13 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
-            tap-ms = <20>;
+            tap-ms = <25>;
         };
         mouse_scroll2: mouse_wheel_scrl2{
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
-            tap-ms = <16>;
+            tap-ms = <25>;
         };
     };
 
