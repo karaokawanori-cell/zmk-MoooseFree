@@ -193,7 +193,7 @@
                 &none  &mkp MCLK  &kp JP_MHEN  &kp ENTER   &kp MINUS
                 &kp C           &kp D   &kp E   &kp PSCRN           &kp G   &kp H &kp G   &kp H
             >;
-            sensor-bindings = <&mouse_scroll2 SCRL_UP SCRL_DOWN &mouse_scroll SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB)) &inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
         AHK {
             bindings = <
