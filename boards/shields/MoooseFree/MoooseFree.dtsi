@@ -177,7 +177,7 @@
         compatible = "alps,ec11";
         a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <24>;
+        steps = <20>;
         status = "disabled";
     };
 
@@ -198,7 +198,7 @@
         };
 
         right_config {
-            triggers-per-rotation = <14>;
+            triggers-per-rotation = <10>;
         };
 
     };
