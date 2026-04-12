@@ -198,7 +198,7 @@
         };
 
         right_config {
-            triggers-per-rotation = <6>;
+            triggers-per-rotation = <12>;
         };
 
     };
