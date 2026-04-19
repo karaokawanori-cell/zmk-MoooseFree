@@ -111,6 +111,7 @@
             label = "LAYER_TAP_TO_0";
             bindings = <&mo>, <&to_layer_0>;
             #binding-cells = <2>;
+            flavor = "balanced";
             tapping-term-ms = <200>;
         };
         rot_kp: sensor_rotate_kp {
