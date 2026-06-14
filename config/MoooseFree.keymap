@@ -190,7 +190,7 @@
                 &kp C   &kp D  &kp C   &kp D         &kp F   &kp G   &kp H                       &kp I
 
                 &kp UP                             &none      &kp N7       &kp N8    &kp N9       &kp JP_CARET        &trans
-                &kp DOWN                           &none      &kp N4       &kp N5    &kp N6       &kp KP_PLUS         &kp JP_COLON
+                &kp DOWN                           &none      &kp N4       &kp N5    &kp N6       &kp KP_PLUS         &kp LS(JP_COLON)
                 &kp RIGHT  &kp PSCRN               &none      &kp N1       &kp N2    &kp N3       &kp KP_SLASH        &kp KP_DOT
                 &kp LEFT   &trans  &trans                                  &kp N0    &kp KP_DOT   &kp COMMA           &trans
                 &none      &trans  &trans  &kp ENTER   &kp MINUS
@@ -225,7 +225,7 @@
                                                           &trans   &kp SPACE   &kp JP_HENK   &kp PSCRN  &none
                 &kp C   &kp D  &kp C   &kp D         &kp F   &kp G   &kp H                       &kp I
 
-                &kp UP                               &kp LS(N6)  &kp LS(N7)     &kp LS(N8)     &kp LS(N9)   &kp LS(N0)    &none
+                &kp UP                               &kp LS(N6)  &kp LS(N7)     &kp LS(N8)     &kp LS(N9)   &kp JP_TILDE  &none
                 &kp DOWN                             &kp F6      &kp F7         &kp F8         &kp F9       &kp F10       &none
                 &kp RIGHT  &kp PSCRN                 &trans      &trans         &trans         &trans       &trans        &trans
                 &kp LEFT   &trans  &trans                                 &kp TAB        &kp JP_LBKT  &kp JP_RBKT   &kp JP_AT
